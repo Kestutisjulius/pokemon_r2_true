@@ -1,6 +1,5 @@
 function Pokemon({pokemon}){
     return(
-    <>
             <tr style={
                 {
                     textDecoration: "none",
@@ -10,9 +9,6 @@ function Pokemon({pokemon}){
                 <td>{pokemon.name}</td>
                 <td><a href={pokemon.url}>{pokemon.url}</a></td>
             </tr>
-
-    </>
-
         )
 }
 export default Pokemon;

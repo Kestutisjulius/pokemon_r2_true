@@ -1,5 +1,5 @@
-import Pokemon from "./Pokemon";
 import {useEffect, useState} from "react";
+import Pokemon from "./Pokemon";
 
 function Data(){
     const [data, setData] = useState([]);
